@@ -1,0 +1,34 @@
+# 处理 109060.xyz 的根域重定向
+[[redirects]]
+  from = "https://109060.xyz/*"
+  to = "https://per.aur.fan/:splat"
+  status = 307
+  force = true
+
+# 处理 snow-yun.com 的根域重定向
+[[redirects]]
+  from = "https://snow-yun.com/*"
+  to = "https://dev.snow-yun.com/:splat"
+  status = 307
+  force = true
+
+# 处理 snow-yun.com 的 www 重定向
+[[redirects]]
+  from = "https://www.snow-yun.com/*"
+  to = "https://dev.snow-yun.com/:splat"
+  status = 307
+  force = true
+
+# 处理 aur.fan 的根域重定向
+[[redirects]]
+  from = "https://aur.fan/*"
+  to = "https://per.aur.fan/:splat"
+  status = 301
+  force = true
+
+# 处理 aur.fan 的 www 重定向
+[[redirects]]
+  from = "https://www.aur.fan/*"
+  to = "https://per.aur.fan/:splat"
+  status = 301
+  force = true
