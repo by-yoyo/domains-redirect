@@ -1,34 +1,20 @@
 # 处理 109060.xyz 的根域重定向
 [[redirects]]
   from = "https://109060.xyz/*"
-  to = "https://per.aur.fan/:splat"
-  status = 307
+  to = "https://blog.arsfox.com/:splat"
+  status = 301
   force = true
 
 # 处理 arsfox.com 的根域重定向
 [[redirects]]
   from = "https://arsfox.com/*"
-  to = "https://dev.arsfox.com/:splat"
-  status = 307
-  force = true
-
-# 处理 arsfox.com 的 www 重定向
-[[redirects]]
-  from = "https://www.arsfox.com/*"
-  to = "https://dev.arsfox.com/:splat"
-  status = 307
+  to = "https://blog.arsfox.com/:splat"
+  status = 301
   force = true
 
 # 处理 aur.fan 的根域重定向
 [[redirects]]
   from = "https://aur.fan/*"
-  to = "https://per.aur.fan/:splat"
-  status = 301
-  force = true
-
-# 处理 aur.fan 的 www 重定向
-[[redirects]]
-  from = "https://www.aur.fan/*"
-  to = "https://per.aur.fan/:splat"
+  to = "https://blog.arsfox.com/:splat"
   status = 301
   force = true
