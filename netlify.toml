@@ -1,10 +1,3 @@
-# 处理 109060.xyz 的根域重定向
-[[redirects]]
-  from = "https://109060.xyz/*"
-  to = "https://blog.arsfox.com/:splat"
-  status = 301
-  force = true
-
 # 处理 arsfox.com 的根域重定向
 [[redirects]]
   from = "https://arsfox.com/*"
